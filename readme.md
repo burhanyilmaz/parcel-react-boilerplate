@@ -11,7 +11,7 @@ $ npm install || yarn install
 $ npm start || yarn start
 ```
 
-### Dosya Yapısı 
+### Dizin Yapısı 
 ```
 .
 ├── package.json
