@@ -10,8 +10,9 @@ $ cd parcel-react-boilerplate
 $ npm install || yarn install
 $ npm start || yarn start
 ```
-### Dosya Yapısı 
 
+### Dosya Yapısı 
+```
 .
 ├── package.json
 ├── public
@@ -39,3 +40,4 @@ $ npm start || yarn start
             └── style
                 └── style.css
 
+```
