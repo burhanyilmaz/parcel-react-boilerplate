@@ -3,6 +3,8 @@
         "transform-object-rest-spread"
     ],
     "presets": [
-        "stage-3"
+        "stage-3",
+        "env",
+        "react"
     ]
 }

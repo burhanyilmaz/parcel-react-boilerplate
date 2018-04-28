@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { Provider} from 'react-redux';
-import routes from '../src/config/route/route';
+import routes from '../src/route/route';
 
 const app = document.getElementById('app');
 

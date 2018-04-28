@@ -1,1 +1,1 @@
-export { default as ParcelHome } from './container/ParcelHome/ParcelHome';
+export { default as ParcelHome } from './container/ParcelHome/';
