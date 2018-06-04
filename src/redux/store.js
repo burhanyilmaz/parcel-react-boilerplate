@@ -7,7 +7,5 @@ const INITIAL_STATE = {};
 export default createStore(
     reducers,
     INITIAL_STATE,
-    compose(
-        applyMiddleware(thunk),
-    )
+    compose(applyMiddleware(thunk))
 );

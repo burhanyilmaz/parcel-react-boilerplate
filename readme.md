@@ -20,7 +20,7 @@ Komutlar
 |Script|Tanım|
 |---|---|
 |`npm start`| `localhost:1234` adresinde geliştirme server'ını başlatır.|
-|`npm run build`| Uygulamanun production'a hazır halini `./dist`'e çıkarır.|
+|`npm run build`| Uygulamanın production'a hazır halini `./dist`'e çıkarır.|
 |`npm run test`| Testleri çalıştırmayı sağlar.|
 
 ### Demo
@@ -37,25 +37,34 @@ Testler daha da genişleticek.
 │   ├── App.js
 │   └── index.html
 ├── readme.md
-└── src
-    ├── redux
-    │   ├── reducers.js
-    │   └── store.js
-    ├── route
-    │   └── route.js
-    └── scenes
-        └── Parcel
-            ├── actions
-            │   └── ParcelActions.js
-            ├── constants.js
-            ├── container
-            │   └── ParcelHome
-            │       ├── index.js
-            │       └── ParcelHome.js
-            ├── index.js
-            ├── reducer
-            │   └── ParcelReducer.js
-            └── style
-                └── style.css
+├── src
+│   ├── modules
+│   │   └── Counter
+│   │       ├── actions
+│   │       │   └── CounterActions.js
+│   │       ├── constants.js
+│   │       ├── container
+│   │       │   └── CounterHome
+│   │       │       ├── CounterHome.js
+│   │       │       └── index.js
+│   │       ├── index.js
+│   │       ├── reducer
+│   │       │   └── CounterReducer.js
+│   │       ├── style
+│   │       │   └── style.scss
+│   │       └── __test__
+│   │           └── container
+│   │               ├── ParcelHome.test.js
+│   │               └── __snapshots__
+│   │                   └── ParcelHome.test.js.snap
+│   ├── redux
+│   │   ├── reducers.js
+│   │   └── store.js
+│   └── route
+│       └── route.js
+└── test
+    └── bootstrapTests.js
+
+15 directories, 17 files
 
 ```

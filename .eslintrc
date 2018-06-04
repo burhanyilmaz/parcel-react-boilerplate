@@ -1,0 +1,46 @@
+{
+    "plugins": [
+        "react"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:jest/recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "experimentalObjectRestSpread": true,
+            "blockBindings": true
+        }
+    },
+    "rules": {
+        "no-underscore-dangle": [0],
+        "import/prefer-default-export": [0],
+        "class-methods-use-this": [0],
+        "max-len": ["error", 125],
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "react/prop-types": [1, { "ignore": ["navigation", "style", "children", "navigationState", "dispatch"] }],
+        "react/forbid-prop-types": [0],
+        "react/jsx-indent": [1, 4],
+        "react/jsx-indent-props": [1, 4],
+        "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
+        "react/jsx-first-prop-new-line": [1, "multiline"],
+        "react/prefer-stateless-function": [0],
+        "arrow-body-style": [0],
+        "yoda": [0],
+        "comma-style": [2, "last"],
+        "comma-dangle": ["error", "always-multiline"]
+    },
+    "settings": {
+        "import/extensions": [
+            ".js",
+            ".jsx"
+        ]
+    },
+    "env": {
+        "es6": true
+    }
+}
